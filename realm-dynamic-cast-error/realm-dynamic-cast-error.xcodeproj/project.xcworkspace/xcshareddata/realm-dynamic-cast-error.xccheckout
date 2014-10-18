@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B713C6DE-1ECA-49BA-A258-1C12AEE9A678</string>
+	<key>IDESourceControlProjectName</key>
+	<string>realm-dynamic-cast-error</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CD7324AFA55DA8EAF14B4989A10DE8647711DF8A</key>
+		<string>https://github.com/javierjulio/realm-issues.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>realm-dynamic-cast-error/realm-dynamic-cast-error.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CD7324AFA55DA8EAF14B4989A10DE8647711DF8A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/javierjulio/realm-issues.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CD7324AFA55DA8EAF14B4989A10DE8647711DF8A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CD7324AFA55DA8EAF14B4989A10DE8647711DF8A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>realm-issues</string>
+		</dict>
+	</array>
+</dict>
+</plist>

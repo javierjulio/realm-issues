@@ -18,7 +18,7 @@ class UserService {
   }
   
   func defaultUser() -> User {
-    if User.allObjects().count == 0 {
+    if User.allObjectsInRealm(realm).count == 0 {
       realm.transactionWithBlock() {
         let user = User()
         user.firstName = "Javier"
@@ -31,7 +31,7 @@ class UserService {
   }
   
   func defaultUserWORKING() -> User {
-    if User.allObjects().count == 0 {
+    if User.allObjectsInRealm(realm).count == 0 {
       let user = User()
       realm.transactionWithBlock() {
         user.firstName = "Javier"
@@ -41,7 +41,7 @@ class UserService {
       return user
     }
     else {
-      return User.allObjects().firstObject() as User
+      return User.allObjectsInRealm(realm).firstObject() as User
     }
   }
   
