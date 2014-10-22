@@ -40,14 +40,14 @@ func deleteRealmFilesAtPath(path: String) {
 
 extension RLMRealm {
   class func defaultRealm() -> RLMRealm! {
-    return RLMRealm.realmWithPath(testRealmPath(), readOnly: false, error: nil)
+    return RLMRealm(path: testRealmPath(), readOnly: false, error: nil)
   }
 }
 
 class BaseTestCase: XCTestCase {
   
   func realmWithTestPath() -> RLMRealm! {
-    return RLMRealm.realmWithPath(testRealmPath(), readOnly: false, error: nil)
+    return RLMRealm(path: testRealmPath(), readOnly: false, error: nil)
   }
   
   override func setUp() {

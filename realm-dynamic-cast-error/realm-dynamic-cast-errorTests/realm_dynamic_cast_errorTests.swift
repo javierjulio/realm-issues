@@ -18,17 +18,17 @@ class realm_dynamic_cast_errorTests: BaseTestCase {
     let realm = realmWithTestPath()
     let userService = UserService(realm: realm)
     
-    XCTAssertEqual(User.allObjects().count, 0)
+    XCTAssertEqual(User.allObjects().count, UInt(0))
     
     // if the swift_dynamicCastClassUnconditional error does occur its always at this point
     let user = userService.defaultUser()
     
     XCTAssertNotNil(user)
-    XCTAssertEqual(User.allObjects().count, 1)
+    XCTAssertEqual(User.allObjects().count, UInt(1))
     
     userService.defaultUser()
     
-    XCTAssertEqual(User.allObjects().count, 1)
+    XCTAssertEqual(User.allObjects().count, UInt(1))
   }
   
   func testSomething2() {
@@ -43,16 +43,16 @@ class realm_dynamic_cast_errorTests: BaseTestCase {
     let realm = realmWithTestPath()
     let userService = UserService(realm: realm)
     
-    XCTAssertEqual(User.allObjects().count, 0)
+    XCTAssertEqual(User.allObjects().count, UInt(0))
     
     let user = userService.defaultUserWORKING()
     
     XCTAssertNotNil(user)
-    XCTAssertEqual(User.allObjects().count, 1)
+    XCTAssertEqual(User.allObjects().count, UInt(1))
     
     userService.defaultUserWORKING()
     
-    XCTAssertEqual(User.allObjects().count, 1)
+    XCTAssertEqual(User.allObjects().count, UInt(1))
   }
   
 }
